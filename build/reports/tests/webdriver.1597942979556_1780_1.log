@@ -1,0 +1,177 @@
+[1597942979.572][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 39684
+[1597942979.572][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1597942979.612][INFO]: [8a0ea6834af334179130bf008e5e261b] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1597942979.613][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1597942979.614][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1597942979.614][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/1b/15rjxcbd2cqgbnw43852sx_m0000gn/T/.com.google.Chrome.oyG9xc data:,
+[1597942980.470][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597942980.474][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1597942980.518][INFO]: [8a0ea6834af334179130bf008e5e261b] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.125",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/1b/15rjxcbd2cqgbnw43852sx_m0000gn/T/.com.google.Chrome.oyG9xc"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50760"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "8a0ea6834af334179130bf008e5e261b"
+}
+[1597942980.525][INFO]: [8a0ea6834af334179130bf008e5e261b] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1597942980.525][INFO]: Waiting for pending navigations...
+[1597942980.526][INFO]: Done waiting for pending navigations. Status: ok
+[1597942980.632][INFO]: Waiting for pending navigations...
+[1597942980.633][INFO]: Done waiting for pending navigations. Status: ok
+[1597942980.633][INFO]: [8a0ea6834af334179130bf008e5e261b] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1597942980.637][INFO]: [8a0ea6834af334179130bf008e5e261b] COMMAND Navigate {
+   "url": "https://google.com"
+}
+[1597942980.637][INFO]: Waiting for pending navigations...
+[1597942980.640][INFO]: Done waiting for pending navigations. Status: ok
+[1597942981.130][INFO]: Waiting for pending navigations...
+[1597942981.730][INFO]: Done waiting for pending navigations. Status: ok
+[1597942981.730][INFO]: [8a0ea6834af334179130bf008e5e261b] RESPONSE Navigate
+[1597942981.735][INFO]: [8a0ea6834af334179130bf008e5e261b] COMMAND DeleteAllCookies {
+
+}
+[1597942981.735][INFO]: Waiting for pending navigations...
+[1597942981.737][INFO]: Done waiting for pending navigations. Status: ok
+[1597942981.769][INFO]: Waiting for pending navigations...
+[1597942981.770][INFO]: Done waiting for pending navigations. Status: ok
+[1597942981.770][INFO]: [8a0ea6834af334179130bf008e5e261b] RESPONSE DeleteAllCookies
+[1597942981.773][INFO]: [8a0ea6834af334179130bf008e5e261b] COMMAND CloseWindow {
+
+}
+[1597942981.883][INFO]: [8a0ea6834af334179130bf008e5e261b] RESPONSE CloseWindow [  ]

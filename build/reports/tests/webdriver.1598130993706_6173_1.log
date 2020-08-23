@@ -1,0 +1,176 @@
+[1598130993.730][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 16870
+[1598130993.730][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1598130993.764][INFO]: [8651adb3e40dd771866ec8880a90d73a] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1598130993.765][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1598130993.765][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1598130993.766][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/1b/15rjxcbd2cqgbnw43852sx_m0000gn/T/.com.google.Chrome.oE15Lr data:,
+[1598130994.651][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1598130994.656][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1598130994.713][INFO]: [8651adb3e40dd771866ec8880a90d73a] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.135",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/1b/15rjxcbd2cqgbnw43852sx_m0000gn/T/.com.google.Chrome.oE15Lr"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60335"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "8651adb3e40dd771866ec8880a90d73a"
+}
+[1598130994.721][INFO]: [8651adb3e40dd771866ec8880a90d73a] COMMAND MaximizeWindow {
+
+}
+[1598130994.721][INFO]: Waiting for pending navigations...
+[1598130994.724][INFO]: Done waiting for pending navigations. Status: ok
+[1598130994.860][INFO]: Waiting for pending navigations...
+[1598130994.865][INFO]: Done waiting for pending navigations. Status: ok
+[1598130994.865][INFO]: [8651adb3e40dd771866ec8880a90d73a] RESPONSE MaximizeWindow {
+   "height": 811,
+   "width": 1440,
+   "x": 0,
+   "y": 23
+}
+[1598130994.870][INFO]: [8651adb3e40dd771866ec8880a90d73a] COMMAND Navigate {
+   "url": "http://automationpractice.com/"
+}
+[1598130994.870][INFO]: Waiting for pending navigations...
+[1598130994.872][INFO]: Done waiting for pending navigations. Status: ok
+[1598131016.186][SEVERE]: Unable to receive message from renderer
+[1598131016.186][INFO]: [8651adb3e40dd771866ec8880a90d73a] RESPONSE Navigate ERROR unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=84.0.4147.135)
+[1598131016.212][INFO]: [8651adb3e40dd771866ec8880a90d73a] COMMAND DeleteAllCookies {
+
+}
+[1598131016.219][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1598131016.251][INFO]: [8651adb3e40dd771866ec8880a90d73a] RESPONSE DeleteAllCookies ERROR no such window: window was already closed
+  (Session info: chrome=84.0.4147.135)
+[1598131016.265][INFO]: [8651adb3e40dd771866ec8880a90d73a] COMMAND Quit {
+
+}
+[1598131016.316][INFO]: [8651adb3e40dd771866ec8880a90d73a] RESPONSE Quit

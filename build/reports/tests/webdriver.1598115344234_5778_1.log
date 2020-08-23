@@ -1,0 +1,320 @@
+[1598115344.634][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 23478
+[1598115344.635][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1598115344.956][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1598115344.957][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1598115344.957][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1598115344.958][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/1b/15rjxcbd2cqgbnw43852sx_m0000gn/T/.com.google.Chrome.5w8mjY data:,
+[1598115346.904][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1598115346.919][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1598115347.215][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.135",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/1b/15rjxcbd2cqgbnw43852sx_m0000gn/T/.com.google.Chrome.5w8mjY"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:59340"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0b47b5b2e0bea7dc9c4b20757cfe68a7"
+}
+[1598115347.315][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND MaximizeWindow {
+
+}
+[1598115347.315][INFO]: Waiting for pending navigations...
+[1598115347.316][INFO]: Done waiting for pending navigations. Status: ok
+[1598115347.433][INFO]: Waiting for pending navigations...
+[1598115347.434][INFO]: Done waiting for pending navigations. Status: ok
+[1598115347.434][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE MaximizeWindow {
+   "height": 811,
+   "width": 1440,
+   "x": 0,
+   "y": 23
+}
+[1598115347.440][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND Navigate {
+   "url": "http://automationpractice.com/"
+}
+[1598115347.440][INFO]: Waiting for pending navigations...
+[1598115347.441][INFO]: Done waiting for pending navigations. Status: ok
+[1598115348.853][INFO]: Waiting for pending navigations...
+[1598115410.304][INFO]: Done waiting for pending navigations. Status: disconnected: received Inspector.detached event
+[1598115410.317][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE Navigate
+[1598115410.389][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115410.408][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115410.638][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115410.638][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115410.848][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115410.849][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115411.065][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115411.065][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115411.285][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115411.285][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115411.497][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115411.498][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115411.716][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115411.716][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115411.929][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115411.930][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115412.141][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115412.141][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115412.355][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115412.355][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115412.567][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115412.567][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115412.782][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115412.782][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115412.991][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115412.991][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115413.199][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115413.199][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115413.405][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115413.405][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115413.618][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115413.618][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115413.834][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115413.835][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115414.049][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115414.049][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115414.262][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598115414.262][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE FindElement ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115414.486][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1598115414.486][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE ExecuteScript ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115414.490][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND Screenshot {
+
+}
+[1598115414.490][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE Screenshot ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115414.514][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND DeleteAllCookies {
+
+}
+[1598115414.514][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE DeleteAllCookies ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=84.0.4147.135)
+[1598115414.545][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] COMMAND Quit {
+
+}
+[1598115414.545][INFO]: [0b47b5b2e0bea7dc9c4b20757cfe68a7] RESPONSE Quit

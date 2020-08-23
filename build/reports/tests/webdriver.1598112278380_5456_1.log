@@ -1,0 +1,234 @@
+[1598112278.691][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 40281
+[1598112278.691][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1598112278.977][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1598112278.978][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1598112278.979][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1598112278.979][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/1b/15rjxcbd2cqgbnw43852sx_m0000gn/T/.com.google.Chrome.ndyjTE data:,
+[1598112279.808][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1598112279.812][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1598112279.904][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.135",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/1b/15rjxcbd2cqgbnw43852sx_m0000gn/T/.com.google.Chrome.ndyjTE"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:58171"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "1aafda2c24b987c368b843da61470db2"
+}
+[1598112280.002][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1598112280.002][INFO]: Waiting for pending navigations...
+[1598112280.004][INFO]: Done waiting for pending navigations. Status: ok
+[1598112280.109][INFO]: Waiting for pending navigations...
+[1598112280.110][INFO]: Done waiting for pending navigations. Status: ok
+[1598112280.110][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 22,
+   "y": 45
+}
+[1598112280.119][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND Navigate {
+   "url": "http://automationpractice.com/"
+}
+[1598112280.119][INFO]: Waiting for pending navigations...
+[1598112280.119][INFO]: Done waiting for pending navigations. Status: ok
+[1598112282.004][INFO]: Waiting for pending navigations...
+[1598112285.271][INFO]: Done waiting for pending navigations. Status: ok
+[1598112285.272][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE Navigate
+[1598112285.341][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND FindElement {
+   "using": "link text",
+   "value": "Women"
+}
+[1598112285.342][INFO]: Waiting for pending navigations...
+[1598112285.342][INFO]: Done waiting for pending navigations. Status: ok
+[1598112285.487][INFO]: Waiting for pending navigations...
+[1598112285.491][INFO]: Done waiting for pending navigations. Status: ok
+[1598112285.491][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "5784e15e-8a27-4cbe-aa2e-7ebc2a5ac62b"
+}
+[1598112285.540][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "5784e15e-8a27-4cbe-aa2e-7ebc2a5ac62b"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1598112285.540][INFO]: Waiting for pending navigations...
+[1598112285.543][INFO]: Done waiting for pending navigations. Status: ok
+[1598112285.564][INFO]: Waiting for pending navigations...
+[1598112285.565][INFO]: Done waiting for pending navigations. Status: ok
+[1598112285.565][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE ExecuteScript true
+[1598112285.571][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND ClickElement {
+   "id": "5784e15e-8a27-4cbe-aa2e-7ebc2a5ac62b"
+}
+[1598112285.571][INFO]: Waiting for pending navigations...
+[1598112285.573][INFO]: Done waiting for pending navigations. Status: ok
+[1598112285.641][INFO]: Waiting for pending navigations...
+[1598112287.933][INFO]: Done waiting for pending navigations. Status: ok
+[1598112287.933][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE ClickElement
+[1598112287.941][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//h2[@class='title_block']"
+}
+[1598112287.941][INFO]: Waiting for pending navigations...
+[1598112287.943][INFO]: Done waiting for pending navigations. Status: ok
+[1598112287.960][INFO]: Waiting for pending navigations...
+[1598112287.961][INFO]: Done waiting for pending navigations. Status: ok
+[1598112287.961][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f7cd2e25-8e28-4ac1-8b79-de1575c5dac4"
+}
+[1598112287.966][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND GetElementTagName {
+   "id": "f7cd2e25-8e28-4ac1-8b79-de1575c5dac4"
+}
+[1598112287.966][INFO]: Waiting for pending navigations...
+[1598112287.967][INFO]: Done waiting for pending navigations. Status: ok
+[1598112287.971][INFO]: Waiting for pending navigations...
+[1598112287.980][INFO]: Done waiting for pending navigations. Status: ok
+[1598112287.986][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE GetElementTagName "h2"
+[1598112287.989][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND GetElementText {
+   "id": "f7cd2e25-8e28-4ac1-8b79-de1575c5dac4"
+}
+[1598112287.993][INFO]: Waiting for pending navigations...
+[1598112287.994][INFO]: Done waiting for pending navigations. Status: ok
+[1598112288.005][INFO]: Waiting for pending navigations...
+[1598112288.008][INFO]: Done waiting for pending navigations. Status: ok
+[1598112288.008][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE GetElementText "WOMEN"
+[1598112288.014][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND DeleteAllCookies {
+
+}
+[1598112288.022][INFO]: Waiting for pending navigations...
+[1598112288.023][INFO]: Done waiting for pending navigations. Status: ok
+[1598112288.028][INFO]: Waiting for pending navigations...
+[1598112288.029][INFO]: Done waiting for pending navigations. Status: ok
+[1598112288.029][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE DeleteAllCookies
+[1598112288.032][INFO]: [1aafda2c24b987c368b843da61470db2] COMMAND CloseWindow {
+
+}
+[1598112288.119][INFO]: [1aafda2c24b987c368b843da61470db2] RESPONSE CloseWindow [  ]

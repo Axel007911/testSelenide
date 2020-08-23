@@ -1,0 +1,493 @@
+[1598136149.173][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 46175
+[1598136149.173][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1598136149.415][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1598136149.416][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/Users/serhii/IdeaProjects/testSelenide/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1598136149.416][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1598136149.417][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/1b/15rjxcbd2cqgbnw43852sx_m0000gn/T/.com.google.Chrome.Ax8nIt data:,
+[1598136150.363][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1598136150.367][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1598136150.440][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.135",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/var/folders/1b/15rjxcbd2cqgbnw43852sx_m0000gn/T/.com.google.Chrome.Ax8nIt"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61457"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "2a44534b6ce181783e77846b4eff163e"
+}
+[1598136150.556][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND MaximizeWindow {
+
+}
+[1598136150.556][INFO]: Waiting for pending navigations...
+[1598136150.556][INFO]: Done waiting for pending navigations. Status: ok
+[1598136150.683][INFO]: Waiting for pending navigations...
+[1598136150.684][INFO]: Done waiting for pending navigations. Status: ok
+[1598136150.684][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE MaximizeWindow {
+   "height": 811,
+   "width": 1440,
+   "x": 0,
+   "y": 23
+}
+[1598136150.691][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND Navigate {
+   "url": "http://automationpractice.com/"
+}
+[1598136150.691][INFO]: Waiting for pending navigations...
+[1598136150.692][INFO]: Done waiting for pending navigations. Status: ok
+[1598136151.967][INFO]: Waiting for pending navigations...
+[1598136154.806][INFO]: Done waiting for pending navigations. Status: ok
+[1598136154.806][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE Navigate
+[1598136154.878][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "link text",
+   "value": "Faded Short Sleeve T-shirts"
+}
+[1598136154.878][INFO]: Waiting for pending navigations...
+[1598136154.913][INFO]: Done waiting for pending navigations. Status: ok
+[1598136154.952][INFO]: Waiting for pending navigations...
+[1598136154.953][INFO]: Done waiting for pending navigations. Status: ok
+[1598136154.953][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f8ff7674-005a-469c-a450-94b7184865e1"
+}
+[1598136154.957][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND GetElementRect {
+   "id": "f8ff7674-005a-469c-a450-94b7184865e1"
+}
+[1598136154.957][INFO]: Waiting for pending navigations...
+[1598136154.963][INFO]: Done waiting for pending navigations. Status: ok
+[1598136154.968][INFO]: Waiting for pending navigations...
+[1598136154.969][INFO]: Done waiting for pending navigations. Status: ok
+[1598136154.969][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE GetElementRect {
+   "height": 23.0,
+   "width": 240.0,
+   "x": 150.0,
+   "y": 1157.0
+}
+[1598136154.974][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "window.scrollTo(150, 1157)"
+}
+[1598136154.974][INFO]: Waiting for pending navigations...
+[1598136154.975][INFO]: Done waiting for pending navigations. Status: ok
+[1598136154.977][INFO]: Waiting for pending navigations...
+[1598136154.977][INFO]: Done waiting for pending navigations. Status: ok
+[1598136154.977][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE ExecuteScript null
+[1598136154.986][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "link text",
+   "value": "Faded Short Sleeve T-shirts"
+}
+[1598136154.986][INFO]: Waiting for pending navigations...
+[1598136154.987][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.013][INFO]: Waiting for pending navigations...
+[1598136155.014][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.014][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "f8ff7674-005a-469c-a450-94b7184865e1"
+}
+[1598136155.020][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND PerformActions {
+   "actions": [ {
+      "actions": [ {
+         "duration": 100,
+         "origin": {
+            "ELEMENT": "f8ff7674-005a-469c-a450-94b7184865e1",
+            "element-6066-11e4-a52e-4f735466cecf": "f8ff7674-005a-469c-a450-94b7184865e1"
+         },
+         "type": "pointerMove",
+         "x": 0,
+         "y": 0
+      } ],
+      "id": "default mouse",
+      "parameters": {
+         "pointerType": "mouse"
+      },
+      "type": "pointer"
+   } ]
+}
+[1598136155.020][INFO]: Waiting for pending navigations...
+[1598136155.021][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.135][INFO]: Waiting for pending navigations...
+[1598136155.135][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.135][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE PerformActions
+[1598136155.140][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class='quick-view']"
+}
+[1598136155.140][INFO]: Waiting for pending navigations...
+[1598136155.141][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.149][INFO]: Waiting for pending navigations...
+[1598136155.150][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.150][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d8f2c7bd-6d8d-45f1-b3db-1f89dab818d7"
+}
+[1598136155.172][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "d8f2c7bd-6d8d-45f1-b3db-1f89dab818d7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1598136155.172][INFO]: Waiting for pending navigations...
+[1598136155.173][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.182][INFO]: Waiting for pending navigations...
+[1598136155.183][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.183][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE ExecuteScript true
+[1598136155.186][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//a[@class='quick-view']"
+}
+[1598136155.186][INFO]: Waiting for pending navigations...
+[1598136155.187][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.190][INFO]: Waiting for pending navigations...
+[1598136155.191][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.191][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "d8f2c7bd-6d8d-45f1-b3db-1f89dab818d7"
+}
+[1598136155.205][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "d8f2c7bd-6d8d-45f1-b3db-1f89dab818d7"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1598136155.205][INFO]: Waiting for pending navigations...
+[1598136155.206][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.216][INFO]: Waiting for pending navigations...
+[1598136155.217][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.217][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE ExecuteScript true
+[1598136155.220][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND ClickElement {
+   "id": "d8f2c7bd-6d8d-45f1-b3db-1f89dab818d7"
+}
+[1598136155.220][INFO]: Waiting for pending navigations...
+[1598136155.221][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.300][INFO]: Waiting for pending navigations...
+[1598136155.309][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.309][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE ClickElement
+[1598136155.314][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136155.314][INFO]: Waiting for pending navigations...
+[1598136155.314][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.321][INFO]: Waiting for pending navigations...
+[1598136155.322][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.322][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136155.555][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136155.555][INFO]: Waiting for pending navigations...
+[1598136155.560][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.569][INFO]: Waiting for pending navigations...
+[1598136155.572][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.572][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136155.786][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136155.786][INFO]: Waiting for pending navigations...
+[1598136155.788][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.797][INFO]: Waiting for pending navigations...
+[1598136155.798][INFO]: Done waiting for pending navigations. Status: ok
+[1598136155.798][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136156.012][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136156.012][INFO]: Waiting for pending navigations...
+[1598136156.013][INFO]: Done waiting for pending navigations. Status: ok
+[1598136156.029][INFO]: Waiting for pending navigations...
+[1598136156.034][INFO]: Done waiting for pending navigations. Status: ok
+[1598136156.035][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136156.248][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136156.248][INFO]: Waiting for pending navigations...
+[1598136156.249][INFO]: Done waiting for pending navigations. Status: ok
+[1598136156.257][INFO]: Waiting for pending navigations...
+[1598136156.258][INFO]: Done waiting for pending navigations. Status: ok
+[1598136156.258][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136156.470][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136156.470][INFO]: Waiting for pending navigations...
+[1598136156.472][INFO]: Done waiting for pending navigations. Status: ok
+[1598136156.480][INFO]: Waiting for pending navigations...
+[1598136156.481][INFO]: Done waiting for pending navigations. Status: ok
+[1598136156.481][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136156.687][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136156.687][INFO]: Waiting for pending navigations...
+[1598136156.690][INFO]: Done waiting for pending navigations. Status: ok
+[1598136156.694][INFO]: Waiting for pending navigations...
+[1598136156.695][INFO]: Done waiting for pending navigations. Status: ok
+[1598136156.695][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136156.903][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136156.903][INFO]: Waiting for pending navigations...
+[1598136156.905][INFO]: Done waiting for pending navigations. Status: ok
+[1598136156.913][INFO]: Waiting for pending navigations...
+[1598136156.914][INFO]: Done waiting for pending navigations. Status: ok
+[1598136156.914][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136157.124][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136157.124][INFO]: Waiting for pending navigations...
+[1598136157.127][INFO]: Done waiting for pending navigations. Status: ok
+[1598136157.133][INFO]: Waiting for pending navigations...
+[1598136157.134][INFO]: Done waiting for pending navigations. Status: ok
+[1598136157.134][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136157.346][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136157.346][INFO]: Waiting for pending navigations...
+[1598136157.347][INFO]: Done waiting for pending navigations. Status: ok
+[1598136157.355][INFO]: Waiting for pending navigations...
+[1598136157.356][INFO]: Done waiting for pending navigations. Status: ok
+[1598136157.356][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136157.566][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136157.566][INFO]: Waiting for pending navigations...
+[1598136157.567][INFO]: Done waiting for pending navigations. Status: ok
+[1598136157.578][INFO]: Waiting for pending navigations...
+[1598136157.579][INFO]: Done waiting for pending navigations. Status: ok
+[1598136157.579][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136157.793][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136157.794][INFO]: Waiting for pending navigations...
+[1598136157.795][INFO]: Done waiting for pending navigations. Status: ok
+[1598136157.803][INFO]: Waiting for pending navigations...
+[1598136157.805][INFO]: Done waiting for pending navigations. Status: ok
+[1598136157.805][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136158.018][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136158.018][INFO]: Waiting for pending navigations...
+[1598136158.019][INFO]: Done waiting for pending navigations. Status: ok
+[1598136158.028][INFO]: Waiting for pending navigations...
+[1598136158.029][INFO]: Done waiting for pending navigations. Status: ok
+[1598136158.029][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136158.243][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136158.243][INFO]: Waiting for pending navigations...
+[1598136158.245][INFO]: Done waiting for pending navigations. Status: ok
+[1598136158.253][INFO]: Waiting for pending navigations...
+[1598136158.254][INFO]: Done waiting for pending navigations. Status: ok
+[1598136158.254][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136158.470][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136158.470][INFO]: Waiting for pending navigations...
+[1598136158.472][INFO]: Done waiting for pending navigations. Status: ok
+[1598136158.481][INFO]: Waiting for pending navigations...
+[1598136158.482][INFO]: Done waiting for pending navigations. Status: ok
+[1598136158.482][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136158.695][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136158.695][INFO]: Waiting for pending navigations...
+[1598136158.697][INFO]: Done waiting for pending navigations. Status: ok
+[1598136158.705][INFO]: Waiting for pending navigations...
+[1598136158.706][INFO]: Done waiting for pending navigations. Status: ok
+[1598136158.706][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136158.916][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136158.916][INFO]: Waiting for pending navigations...
+[1598136158.918][INFO]: Done waiting for pending navigations. Status: ok
+[1598136158.926][INFO]: Waiting for pending navigations...
+[1598136158.927][INFO]: Done waiting for pending navigations. Status: ok
+[1598136158.927][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136159.140][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//img[@title='Faded Short Sleeve T-shirt']"
+}
+[1598136159.140][INFO]: Waiting for pending navigations...
+[1598136159.142][INFO]: Done waiting for pending navigations. Status: ok
+[1598136159.151][INFO]: Waiting for pending navigations...
+[1598136159.152][INFO]: Done waiting for pending navigations. Status: ok
+[1598136159.152][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//img[@title='Faded Short Sleeve T-shirt']"}
+  (Session info: chrome=84.0.4147.135)
+[1598136159.372][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1598136159.372][INFO]: Waiting for pending navigations...
+[1598136159.374][INFO]: Done waiting for pending navigations. Status: ok
+[1598136159.386][INFO]: Waiting for pending navigations...
+[1598136159.387][INFO]: Done waiting for pending navigations. Status: ok
+[1598136159.387][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE ExecuteScript "\u003Chtml lang=\"en\" class=\"fancybox-margin fancybox-lock\">\u003Chead>\n\t\t\u003Cmeta charset=\"utf-8\">\n\t\t\u003Ctitle>My Store\u003C/title>\n\t\t\u003Cmeta name=\"description\" content=\"Shop powered by PrestaShop\">\n\t\t\u003Cmeta name=\"genera..."
+[1598136159.439][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND Screenshot {
+
+}
+[1598136159.439][INFO]: Waiting for pending navigations...
+[1598136159.440][INFO]: Done waiting for pending navigations. Status: ok
+[1598136160.066][INFO]: Waiting for pending navigations...
+[1598136160.067][INFO]: Done waiting for pending navigations. Status: ok
+[1598136160.067][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAAC0AAAAW4CAYAAAAisUJJAAABKWlDQ1BTa2lhAAAokX2Rv0vDQBTHP1YHRYeKig4OmcTFH42mtuBiq1TXVqG6pWkIYhtDmlJ3VwcnZ2f/ATdnd8HJ1V0QdPV7dkhB4nvc3ee+997duzvILSHL5aEbJnG9VrGap2cWI+Z6vYhsG4OvV..."
+[1598136160.191][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND DeleteAllCookies {
+
+}
+[1598136160.191][INFO]: Waiting for pending navigations...
+[1598136160.196][INFO]: Done waiting for pending navigations. Status: ok
+[1598136160.201][INFO]: Waiting for pending navigations...
+[1598136160.202][INFO]: Done waiting for pending navigations. Status: ok
+[1598136160.202][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE DeleteAllCookies
+[1598136160.204][INFO]: [2a44534b6ce181783e77846b4eff163e] COMMAND CloseWindow {
+
+}
+[1598136160.323][INFO]: [2a44534b6ce181783e77846b4eff163e] RESPONSE CloseWindow [  ]
