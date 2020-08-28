@@ -14,7 +14,7 @@ public class test1 extends baseTest {
 public void firstTest() {
     $(By.linkText("Women")).click();
     $x("//h2[@class='title_block']").shouldBe(Condition.text("Women"));
-
+    System.out.println("Hello world");
 }
 
 
